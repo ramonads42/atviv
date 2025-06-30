@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Created-By: Maven JAR Plugin 3.2.2
+Build-Jdk-Spec: 17
+Automatic-Module-Name: spring.data.jdbc
+Implementation-Title: Spring Data JDBC
+Implementation-Version: 3.0.1
+

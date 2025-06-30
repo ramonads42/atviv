@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Specification-Title: hibernate-core
+Specification-Version: 6.1.6.Final
+Specification-Vendor: Hibernate.org
+Implementation-Title: hibernate-core
+Implementation-Version: 6.1.6.Final
+Implementation-Vendor: Hibernate.org
+Implementation-Vendor-Id: org.hibernate
+Implementation-Url: https://hibernate.org/orm
+Automatic-Module-Name: org.hibernate.orm.core
+Hibernate-VersionFamily: 6.1
+Hibernate-JpaVersion: 2.2
+-reproducible: true
+-noextraheaders: true
+Bundle-Name: hibernate-core
+Bundle-SymbolicName: org.hibernate.orm.core
+Bundle-Vendor: Hibernate.org
+Bundle-DocURL: https://www.hibernate.org/orm/6.1
+Import-Package: javax.transaction;version="[1.1,2)",*
+-exportcontents: *;version=6.1.6.Final
+Main-Class: org.hibernate.Version
+

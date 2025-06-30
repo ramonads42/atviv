@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven Bundle Plugin 5.1.4
+Build-Jdk-Spec: 11
+Bundle-Description: Jakarta Persistence 3.1 API jar
+Bundle-DocURL: https://www.eclipse.org
+Bundle-License: http://www.eclipse.org/legal/epl-2.0, http://www.eclipse
+ .org/org/documents/edl-v10.php
+Bundle-ManifestVersion: 2
+Bundle-Name: Jakarta Persistence API jar
+Bundle-SymbolicName: jakarta.persistence-api
+Bundle-Vendor: Eclipse Foundation
+Bundle-Version: 3.1.0
+Export-Package: jakarta.persistence;uses:="jakarta.persistence.criteria,
+ jakarta.persistence.metamodel,jakarta.persistence.spi";version="3.1.0",
+ jakarta.persistence.metamodel;version="3.1.0",jakarta.persistence.spi;u
+ ses:="jakarta.persistence,javax.sql";version="3.1.0",jakarta.persistenc
+ e.criteria;uses:="jakarta.persistence,jakarta.persistence.metamodel";ve
+ rsion="3.1.0"
+Extension-Name: jakarta.persistence
+Implementation-Version: 3.1.0
+Import-Package: jakarta.persistence,jakarta.persistence.criteria,jakarta
+ .persistence.metamodel,jakarta.persistence.spi,javax.sql
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+Specification-Vendor: Eclipse Foundation
+Specification-Version: 3.1
+

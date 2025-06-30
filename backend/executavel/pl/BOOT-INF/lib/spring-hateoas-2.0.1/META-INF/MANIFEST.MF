@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven 3.5.2
+Built-By: runner
+Build-Jdk: 17.0.5
+Automatic-Module-Name: spring.hateoas
+Implementation-Title: Spring HATEOAS
+Implementation-Version: 2.0.1
+

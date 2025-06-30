@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven Bundle Plugin
+Built-By: jenkins
+Build-Jdk: 11.0.2
+Automatic-Module-Name: jakarta.transaction
+Bnd-LastModified: 1648723042751
+Build-Jdk-Spec: 11
+Bundle-Description: Jakarta(TM) Transactions 2.0 API Design Specificatio
+ n
+Bundle-DocURL: https://github.com/eclipse-ee4j
+Bundle-License: http://www.eclipse.org/legal/epl-2.0, https://www.gnu.or
+ g/software/classpath/license.html
+Bundle-ManifestVersion: 2
+Bundle-Name: jakarta.transaction API
+Bundle-SymbolicName: jakarta.transaction-api
+Bundle-Vendor: EE4J Community
+Bundle-Version: 2.0.1
+Export-Package: jakarta.transaction;uses:="javax.transaction.xa,jakarta.
+ interceptor,jakarta.enterprise.context,jakarta.enterprise.util";version
+ ="2.0.1"
+Extension-Name: jakarta.transaction
+Implementation-Vendor: EE4J Community
+Implementation-Vendor-Id: org.glassfish
+Implementation-Version: 2.0.1
+Import-Package: jakarta.enterprise.context,jakarta.enterprise.util,jakar
+ ta.interceptor;version="2.0.1",javax.transaction.xa
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Specification-Vendor: Oracle Corporation
+Specification-Version: 2.0
+Tool: Bnd-5.1.1.202006162103
+

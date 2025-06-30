@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Main-Class: org.hibernate.Version
+Implementation-Url: http://hibernate.org
+Implementation-Version: 6.0.2.Final
+Implementation-Vendor: Hibernate.org
+Implementation-Vendor-Id: org.hibernate
+Bundle-Vendor: Hibernate.org
+Export-Package: [Ljava.lang.String;@44d7306c
+

@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bundle-Description: Jakarta Dependency Injection
+Automatic-Module-Name: jakarta.inject
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-SymbolicName: jakarta.inject.jakarta.inject-api
+Implementation-Version: 2.0
+Archiver-Version: Plexus Archiver
+Built-By: jenkins
+Bnd-LastModified: 1594086750758
+Bundle-ManifestVersion: 2
+Bundle-DocURL: https://www.eclipse.org
+Bundle-Vendor: Eclipse Foundation
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+Tool: Bnd-4.2.0.201903051501
+Export-Package: jakarta.inject;version="2.0.0"
+Bundle-Name: Jakarta Dependency Injection
+Bundle-Version: 2.0.0
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_202
+

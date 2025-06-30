@@ -1,0 +1,75 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: tomcat-embed-websocket
+Bundle-SymbolicName: org.apache.tomcat-embed-websocket
+Bundle-Version: 10.1.5
+Export-Package: jakarta.websocket;version="2.1";uses:="javax.net.ssl",
+ jakarta.websocket.server;version="2.1";uses:="jakarta.websocket",org.
+ apache.tomcat.websocket;uses:="jakarta.websocket,jakarta.websocket.se
+ rver,javax.net.ssl,org.apache.juli.logging,org.apache.tomcat,org.apac
+ he.tomcat.util.res";version="10.1.5",org.apache.tomcat.websocket.serv
+ er;uses:="jakarta.servlet,jakarta.servlet.annotation,jakarta.servlet.
+ http,jakarta.websocket,jakarta.websocket.server,org.apache.coyote.htt
+ p11.upgrade,org.apache.juli.logging,org.apache.tomcat,org.apache.tomc
+ at.util.net,org.apache.tomcat.websocket";version="10.1.5"
+Implementation-Title: Apache Tomcat
+Implementation-Vendor: Apache Software Foundation
+Implementation-Version: 10.1.5
+Import-Package: jakarta.servlet,jakarta.servlet.annotation,jakarta.ser
+ vlet.http,jakarta.websocket;version="[2.1,3)",jakarta.websocket.serve
+ r;version="[2.1,3)",java.io,java.lang,java.lang.annotation,java.lang.
+ invoke,java.lang.reflect,java.net,java.nio,java.nio.channels,java.nio
+ .charset,java.security,java.util,java.util.concurrent,java.util.concu
+ rrent.atomic,java.util.function,java.util.regex,java.util.zip,javax.n
+ aming,javax.net.ssl,org.apache.coyote.http11.upgrade;version="[10.1,1
+ 1)",org.apache.juli.logging;version="[10.1,11)",org.apache.tomcat;ver
+ sion="[10.1,11)",org.apache.tomcat.util;version="[10.1,11)",org.apach
+ e.tomcat.util.buf;version="[10.1,11)",org.apache.tomcat.util.codec.bi
+ nary;version="[10.1,11)",org.apache.tomcat.util.collections;version="
+ [10.1,11)",org.apache.tomcat.util.net;version="[10.1,11)",org.apache.
+ tomcat.util.res;version="[10.1,11)",org.apache.tomcat.util.security;v
+ ersion="[10.1,11)",org.apache.tomcat.util.threads;version="[10.1,11)"
+Private-Package: org.apache.tomcat.websocket.pojo
+Provide-Capability: osgi.contract;osgi.contract=JavaWebSockets;version
+ :Version="2.1";uses:="jakarta.websocket,jakarta.websocket.server",osg
+ i.service;objectClass:List<String>="jakarta.websocket.ContainerProvid
+ er";effective:=active,osgi.service;objectClass:List<String>="jakarta.
+ websocket.server.ServerEndpointConfig$Configurator";effective:=active
+ ,osgi.serviceloader;osgi.serviceloader="jakarta.websocket.ContainerPr
+ ovider";register:="org.apache.tomcat.websocket.WsContainerProvider",o
+ sgi.serviceloader;osgi.serviceloader="jakarta.websocket.server.Server
+ EndpointConfig$Configurator";register:="org.apache.tomcat.websocket.s
+ erver.DefaultServerEndpointConfigurator"
+Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.servi
+ celoader.processor)(version>=1.0.0)(!(version>=2.0.0)))",osgi.service
+ loader;filter:="(osgi.serviceloader=jakarta.websocket.ContainerProvid
+ er)";osgi.serviceloader="jakarta.websocket.ContainerProvider",osgi.se
+ rviceloader;filter:="(osgi.serviceloader=jakarta.websocket.server.Ser
+ verEndpointConfig$Configurator)";osgi.serviceloader="jakarta.websocke
+ t.server.ServerEndpointConfig$Configurator",osgi.ee;filter:="(&(osgi.
+ ee=JavaSE)(version=1.8))",osgi.extender;filter:="(&(osgi.extender=osg
+ i.serviceloader.registrar)(version>=1.0.0)(!(version>=2.0.0)))",osgi.
+ contract;osgi.contract=JavaServlet;filter:="(&(osgi.contract=JavaServ
+ let)(version=6.0.0))"
+Specification-Title: Apache Tomcat
+Specification-Vendor: Apache Software Foundation
+Specification-Version: 10.1
+X-Compile-Source-JDK: 11
+X-Compile-Target-JDK: 11
+
+Name: jakarta/websocket/
+Implementation-Title: jakarta.websocket
+Implementation-Vendor: Apache Software Foundation
+Implementation-Version: 2.1
+Specification-Title: Jakarta WebSocket
+Specification-Vendor: Eclipse Foundation
+Specification-Version: 2.1
+
+Name: jakarta/websocket/server/
+Implementation-Title: jakarta.websocket
+Implementation-Vendor: Apache Software Foundation
+Implementation-Version: 2.1
+Specification-Title: Jakarta WebSocket
+Specification-Vendor: Eclipse Foundation
+Specification-Version: 2.1
+

@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Implementation-Title: spring-webmvc
+Implementation-Version: 6.0.4
+Automatic-Module-Name: spring.webmvc
+Created-By: 17.0.5 (Oracle Corporation)
+

@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: micrometer.commons
+Implementation-Title: io.micrometer#micrometer-commons;1.10.3
+Implementation-Version: 1.10.3
+Built-Status: integration
+Built-By: circleci
+Built-OS: Linux
+Build-Timezone: Etc/UTC
+Build-Date-UTC: 2023-01-10T15:02:15.761853914Z
+Build-Date: 2023-01-10_15:02:15
+Gradle-Version: 7.5.1
+Module-Source: /micrometer-commons
+Module-Origin: git@github.com:micrometer-metrics/micrometer.git
+Change: 7786761
+Full-Change: 77867611eb8e4f494404600fcc139c32922d6cbf
+Branch: 77867611eb8e4f494404600fcc139c32922d6cbf
+Build-Host: 02f36bb340c3
+Build-Job: deploy
+Build-Number: 19655
+Build-Id: 19655
+Build-Url: https://circleci.com/gh/micrometer-metrics/micrometer/19655
+Created-By: 18.0.2+9 (Eclipse Adoptium)
+Module-Owner: tludwig@vmware.com
+Module-Email: tludwig@vmware.com
+X-Compile-Target-JDK: 1.8
+X-Compile-Source-JDK: 1.8
+Build-Java-Version: 18
+
