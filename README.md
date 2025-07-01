@@ -8,4 +8,6 @@ Este é um projeto que utiliza Node.js e React. Para rodar corretamente, é nece
 
 2. Execute o comando "npm install" em "frontend"
 
+3. Execute o comando "npm start" em "frontend"
+
 A aplicação estará disponível em http://localhost:3000.
